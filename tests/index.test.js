@@ -1,4 +1,7 @@
 const { numbers, strings, dates } = require("../src");
+// In order for these tests to run the require access to the src folder
+// said folder has a child folder for each of the three variables and
+// their corresponding functions
 
 describe("Numbers module", () => {
   test("Check if a given number is even or odd", () => {
