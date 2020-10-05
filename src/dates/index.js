@@ -12,7 +12,7 @@ const today = () => {
 
 const calendar = () => {
   // write code for dates.calendar
-  moment().format();
+  moment().calendar();
   console.log(calendar);
 };
 
